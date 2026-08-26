@@ -1,0 +1,53 @@
+name: Add or update a project
+description: Suggest a self-improving agent method or correct an existing entry.
+title: "[Project]: "
+labels: []
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project or method
+    validations:
+      required: true
+
+  - type: input
+    id: paper
+    attributes:
+      label: Paper or project page
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: Public code repository
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvement
+    attributes:
+      label: What persistent part improves?
+      description: Prompt/context, skill/memory, harness, workflow, topology/routing, policy/model, or other reusable state.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Code relationship
+      options:
+        - Official
+        - Reference
+        - Third-party
+        - Unsure
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Explain how the paper/project links to this codebase.
+    validations:
+      required: true
