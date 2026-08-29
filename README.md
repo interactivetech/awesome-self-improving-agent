@@ -25,9 +25,11 @@ We track methods across:
 | **Self-Harness** | [Self-Harness: Harnesses That Improve Themselves](https://arxiv.org/abs/2606.09498) | arXiv 2026 | [qzzqzzb/Self-Harness](https://github.com/qzzqzzb/Self-Harness) | Harness / runtime | `official` |
 | **Meta-Harness** | [Meta-Harness: End-to-End Optimization of Model Harnesses](https://arxiv.org/abs/2603.28052) | arXiv 2026 | [stanford-iris-lab/meta-harness](https://github.com/stanford-iris-lab/meta-harness) | Harness / context plumbing | `official` |
 | **HarnessFix** | [From Failed Trajectories to Reliable LLM Agents: Diagnosing and Repairing Harness Flaws](https://arxiv.org/abs/2606.06324) | arXiv 2026 | [HarnessFix/HarnessFix](https://github.com/HarnessFix/HarnessFix) | Harness / runtime | `official` |
+| **Agentic Harness Engineering** | [Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses](https://arxiv.org/abs/2604.25850) | arXiv 2026 | [mqbazhaoyu/ahe](https://github.com/mqbazhaoyu/ahe) | Harness / runtime | `third-party` |
 | **ReCreate** | [ReCreate: Reasoning and Creating Domain Agents Driven by Experience](https://aclanthology.org/2026.acl-long.1432/) | ACL 2026 | [zz-haooo/ReCreate](https://github.com/zz-haooo/ReCreate) | Agent scaffold / domain architecture | `official` |
 | **SkillGraph** | [SkillGraph: Self-Evolving Multi-Agent Collaboration with Multimodal Graph Topology](https://arxiv.org/abs/2604.17503) | arXiv 2026 | [niez233/skillgraph](https://github.com/niez233/skillgraph) | Skills + multi-agent topology | `official` |
 | **Swarm Skills / JiuwenSwarm** | [Swarm Skills: A Portable, Self-Evolving Multi-Agent System Specification for Coordination Engineering](https://arxiv.org/abs/2605.10052) | arXiv 2026 | [openJiuwen-ai/jiuwenswarm](https://github.com/openJiuwen-ai/jiuwenswarm) | Shared swarm skills / coordination | `reference` |
+| **APEX** | [APEX: Autonomous Policy Exploration for Self-Evolving LLM Agents](https://arxiv.org/abs/2605.21240) | arXiv 2026 | [liushiliushi/APEX1](https://github.com/liushiliushi/APEX1) | Policy / persistent strategy map | `official` |
 | **Self-Refine** | [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651) | NeurIPS 2023 | [madaan/self-refine](https://github.com/madaan/self-refine) | Current output | `official-borderline` |
 | **GPTSwarm** | [GPTSwarm: Language Agents as Optimizable Graphs](https://arxiv.org/abs/2402.16823) | ICML 2024 | [metauto-ai/GPTSwarm](https://github.com/metauto-ai/GPTSwarm) | Agent graph | `official` |
 | **ADAS** | [Automated Design of Agentic Systems](https://arxiv.org/abs/2408.08435) | ICLR 2025 | [ShengranHu/ADAS](https://github.com/ShengranHu/ADAS) | Agent architecture / program | `official` |
@@ -37,11 +39,11 @@ We track methods across:
 | Method | Paper | Venue | What improves | Current status |
 |---|---|---|---|---|
 | **RHO** | [Evolving Agents in the Dark: Retrospective Harness Optimization via Self-Preference](https://arxiv.org/abs/2606.05922) | arXiv 2026 | Harness / runtime | `paper-only` |
-| **Agentic Harness Engineering** | [Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses](https://arxiv.org/abs/2604.25850) | arXiv 2026 | Harness / runtime | `paper-only` |
 | **HARBOR** | [HARBOR: Automated Harness Optimization](https://arxiv.org/abs/2604.20938) | arXiv 2026 | Harness / runtime | `paper-only` |
 | **Living-Harness** | [Living-Harness Is an Interactive-Agent Evolver](https://arxiv.org/abs/2607.26598) | arXiv 2026 | Harness / interactive agent | `paper-only` |
-| **APEX** | [APEX: Autonomous Policy Exploration for Self-Evolving LLM Agents](https://arxiv.org/abs/2605.21240) | arXiv 2026 | Policy / agent behavior | `paper-only` |
 | **QueenBee Planner** | [QueenBee Planner: Skill-Evolving Communication Topologies for Token-Efficient LLM Multi-Agent Systems](https://arxiv.org/abs/2606.27492) | arXiv 2026 | Skills + communication topology | `preview` |
+
+> Agentic Harness Engineering has a tracked third-party implementation, but remains on the structured watchlist for an author-released implementation.
 
 ## Code-backed projects whose paper metadata is still being verified
 
@@ -100,7 +102,7 @@ Reviewed **every three days** for:
 
 Every meaningful maintenance pass should update the README **and** structured data. No-change checks should not create commits.
 
-Last seeded verification: **2026-08-26**.
+Last meaningful verification: **2026-08-29**.
 
 ## Contributing
 
