@@ -30,6 +30,7 @@ We track methods across:
 | **SkillGraph** | [SkillGraph: Self-Evolving Multi-Agent Collaboration with Multimodal Graph Topology](https://arxiv.org/abs/2604.17503) | arXiv 2026 | [niez233/skillgraph](https://github.com/niez233/skillgraph) | Skills + multi-agent topology | `official` |
 | **Swarm Skills / JiuwenSwarm** | [Swarm Skills: A Portable, Self-Evolving Multi-Agent System Specification for Coordination Engineering](https://arxiv.org/abs/2605.10052) | arXiv 2026 | [openJiuwen-ai/jiuwenswarm](https://github.com/openJiuwen-ai/jiuwenswarm) | Shared swarm skills / coordination | `reference` |
 | **APEX** | [APEX: Autonomous Policy Exploration for Self-Evolving LLM Agents](https://arxiv.org/abs/2605.21240) | arXiv 2026 | [liushiliushi/APEX1](https://github.com/liushiliushi/APEX1) | Policy / persistent strategy map | `official` |
+| **AgentNet** | [AgentNet: Decentralized Evolutionary Coordination for LLM-based Multi-Agent Systems](https://arxiv.org/abs/2504.00587) | NeurIPS 2025 | [zoe-yyx/AgentNet](https://github.com/zoe-yyx/AgentNet) | Coordination topology + agent specialization | `official` |
 | **Self-Refine** | [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651) | NeurIPS 2023 | [madaan/self-refine](https://github.com/madaan/self-refine) | Current output | `official-borderline` |
 | **GPTSwarm** | [GPTSwarm: Language Agents as Optimizable Graphs](https://arxiv.org/abs/2402.16823) | ICML 2024 | [metauto-ai/GPTSwarm](https://github.com/metauto-ai/GPTSwarm) | Agent graph | `official` |
 | **ADAS** | [Automated Design of Agentic Systems](https://arxiv.org/abs/2408.08435) | ICLR 2025 | [ShengranHu/ADAS](https://github.com/ShengranHu/ADAS) | Agent architecture / program | `official` |
@@ -63,7 +64,6 @@ These repositories stay in the project index while their canonical paper relatio
 | **TacoMAS** | Public code is tracked; canonical paper metadata is queued for verification. |
 | **EvolveRouter** | Public code is tracked; canonical paper metadata is queued for verification. |
 | **Meta-Team** | Public code is tracked; canonical paper metadata is queued for verification. |
-| **AgentNet** | Public code is tracked; canonical paper metadata is queued for verification. |
 | **ProPlay** | Public code is tracked; canonical paper metadata is queued for verification. |
 
 ## How we classify code
@@ -102,7 +102,7 @@ Reviewed **every three days** for:
 
 Every meaningful maintenance pass should update the README **and** structured data. No-change checks should not create commits.
 
-Last meaningful verification: **2026-08-29**.
+Last meaningful verification: **2026-09-01**.
 
 ## Contributing
 
