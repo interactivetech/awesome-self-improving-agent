@@ -69,6 +69,14 @@ These repositories stay in the project index while their canonical paper relatio
 | **Meta-Team** | Public code is tracked; canonical paper metadata is queued for verification. |
 | **ProPlay** | Public code is tracked; canonical paper metadata is queued for verification. |
 
+## Project-led implementations
+
+These projects document persistent improvement in their public code and project pages without claiming an associated research paper.
+
+| Project | Project page | What improves | Mechanism | Code status |
+|---|---|---|---|---|
+| [**Agent QA**](https://github.com/vostride/agent-qa) | [Official docs](https://vostride.com/docs/agent-qa) | Persistent test-execution memory | Curates observations from web/mobile test runs, persists them across runs, and retrieves relevant observations for later steps. | `official`; source-available FSL-1.1-ALv2 |
+
 ## How we classify code
 
 - `official` — released by the paper/project authors, their lab/company, or explicitly linked as the official implementation.
