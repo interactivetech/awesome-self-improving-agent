@@ -2,6 +2,17 @@
 # status: official | reference | third-party | official-borderline
 # Paper fields are populated only when canonical metadata has been verified.
 projects:
+  - name: "Agent QA"
+    repo: "https://github.com/vostride/agent-qa"
+    paper_title: ""
+    paper_url: ""
+    venue: ""
+    year: ""
+    improves: "Persistent test-execution memory"
+    mechanism: "Curates test-run observations, persists them across runs, and retrieves relevant observations for later test steps."
+    status: "official"
+    verified_at: "2026-09-05"
+    notes: "Project-led implementation; no associated paper claimed. Official project: https://vostride.com/docs/agent-qa. Source-available under FSL-1.1-ALv2. Memory curation and retrieval are implemented in packages/core/src/memory/curator.ts and local-provider.ts."
   - name: "ACE"
     repo: "https://github.com/ace-agent/ace"
     paper_title: ""
