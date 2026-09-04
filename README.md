@@ -31,6 +31,8 @@ We track methods across:
 | **Swarm Skills / JiuwenSwarm** | [Swarm Skills: A Portable, Self-Evolving Multi-Agent System Specification for Coordination Engineering](https://arxiv.org/abs/2605.10052) | arXiv 2026 | [openJiuwen-ai/jiuwenswarm](https://github.com/openJiuwen-ai/jiuwenswarm) | Shared swarm skills / coordination | `reference` |
 | **APEX** | [APEX: Autonomous Policy Exploration for Self-Evolving LLM Agents](https://arxiv.org/abs/2605.21240) | arXiv 2026 | [liushiliushi/APEX1](https://github.com/liushiliushi/APEX1) | Policy / persistent strategy map | `official` |
 | **AgentNet** | [AgentNet: Decentralized Evolutionary Coordination for LLM-based Multi-Agent Systems](https://arxiv.org/abs/2504.00587) | NeurIPS 2025 | [zoe-yyx/AgentNet](https://github.com/zoe-yyx/AgentNet) | Coordination topology + agent specialization | `official` |
+| **Harness-RL** | [Harness-RL: Black-Box Reinforcement Learning with Action-Args Decoupling for Central-Agent Multi-Agent Harnesses](https://arxiv.org/abs/2608.29641) | PCC 2026 | [jiangxinke/Harness-RL](https://github.com/jiangxinke/Harness-RL) | Central-agent policy / multi-agent harness coordination | `official` |
+| **SafeEvolve** | [SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment](https://arxiv.org/abs/2609.02786) | arXiv 2026 | [MaoPopovich/SafeEvolve](https://github.com/MaoPopovich/SafeEvolve) | Safety prompt + hierarchical skills + policy | `official` |
 | **Self-Refine** | [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651) | NeurIPS 2023 | [madaan/self-refine](https://github.com/madaan/self-refine) | Current output | `official-borderline` |
 | **GPTSwarm** | [GPTSwarm: Language Agents as Optimizable Graphs](https://arxiv.org/abs/2402.16823) | ICML 2024 | [metauto-ai/GPTSwarm](https://github.com/metauto-ai/GPTSwarm) | Agent graph | `official` |
 | **ADAS** | [Automated Design of Agentic Systems](https://arxiv.org/abs/2408.08435) | ICLR 2025 | [ShengranHu/ADAS](https://github.com/ShengranHu/ADAS) | Agent architecture / program | `official` |
@@ -41,6 +43,7 @@ We track methods across:
 |---|---|---|---|---|
 | **RHO** | [Evolving Agents in the Dark: Retrospective Harness Optimization via Self-Preference](https://arxiv.org/abs/2606.05922) | arXiv 2026 | Harness / runtime | `paper-only` |
 | **HARBOR** | [HARBOR: Automated Harness Optimization](https://arxiv.org/abs/2604.20938) | arXiv 2026 | Harness / runtime | `paper-only` |
+| **EvoHarness-RL** | [EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents](https://arxiv.org/abs/2608.05446) | arXiv 2026 | Harness state + harness-use policy | `paper-only` |
 | **Living-Harness** | [Living-Harness Is an Interactive-Agent Evolver](https://arxiv.org/abs/2607.26598) | arXiv 2026 | Harness / interactive agent | `paper-only` |
 | **QueenBee Planner** | [QueenBee Planner: Skill-Evolving Communication Topologies for Token-Efficient LLM Multi-Agent Systems](https://arxiv.org/abs/2606.27492) | arXiv 2026 | Skills + communication topology | `preview` |
 
@@ -102,7 +105,7 @@ Reviewed **every three days** for:
 
 Every meaningful maintenance pass should update the README **and** structured data. No-change checks should not create commits.
 
-Last meaningful verification: **2026-09-01**.
+Last meaningful verification: **2026-09-04**.
 
 ## Contributing
 
