@@ -29,6 +29,7 @@ We track methods across:
 | **ReCreate** | [ReCreate: Reasoning and Creating Domain Agents Driven by Experience](https://aclanthology.org/2026.acl-long.1432/) | ACL 2026 | [zz-haooo/ReCreate](https://github.com/zz-haooo/ReCreate) | Agent scaffold / domain architecture | `official` |
 | **SkillGraph** | [SkillGraph: Self-Evolving Multi-Agent Collaboration with Multimodal Graph Topology](https://arxiv.org/abs/2604.17503) | arXiv 2026 | [niez233/skillgraph](https://github.com/niez233/skillgraph) | Skills + multi-agent topology | `official` |
 | **Swarm Skills / JiuwenSwarm** | [Swarm Skills: A Portable, Self-Evolving Multi-Agent System Specification for Coordination Engineering](https://arxiv.org/abs/2605.10052) | arXiv 2026 | [openJiuwen-ai/jiuwenswarm](https://github.com/openJiuwen-ai/jiuwenswarm) | Shared swarm skills / coordination | `reference` |
+| **CORAL** | [CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery](https://arxiv.org/abs/2604.01658) | COLM 2026 | [Human-Agent-Society/CORAL](https://github.com/Human-Agent-Society/CORAL) | Multi-agent search + persistent shared knowledge | `official` |
 | **APEX** | [APEX: Autonomous Policy Exploration for Self-Evolving LLM Agents](https://arxiv.org/abs/2605.21240) | arXiv 2026 | [liushiliushi/APEX1](https://github.com/liushiliushi/APEX1) | Policy / persistent strategy map | `official` |
 | **AgentNet** | [AgentNet: Decentralized Evolutionary Coordination for LLM-based Multi-Agent Systems](https://arxiv.org/abs/2504.00587) | NeurIPS 2025 | [zoe-yyx/AgentNet](https://github.com/zoe-yyx/AgentNet) | Coordination topology + agent specialization | `official` |
 | **Harness-RL** | [Harness-RL: Black-Box Reinforcement Learning with Action-Args Decoupling for Central-Agent Multi-Agent Harnesses](https://arxiv.org/abs/2608.29641) | PCC 2026 | [jiangxinke/Harness-RL](https://github.com/jiangxinke/Harness-RL) | Central-agent policy / multi-agent harness coordination | `official` |
@@ -41,6 +42,7 @@ We track methods across:
 
 | Method | Paper | Venue | What improves | Current status |
 |---|---|---|---|---|
+| **HarnessDev** | [HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?](https://arxiv.org/abs/2609.01437) | arXiv 2026 | Harness creation + iterative harness evolution | `paper-only` |
 | **RHO** | [Evolving Agents in the Dark: Retrospective Harness Optimization via Self-Preference](https://arxiv.org/abs/2606.05922) | arXiv 2026 | Harness / runtime | `paper-only` |
 | **HARBOR** | [HARBOR: Automated Harness Optimization](https://arxiv.org/abs/2604.20938) | arXiv 2026 | Harness / runtime | `paper-only` |
 | **EvoHarness-RL** | [EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents](https://arxiv.org/abs/2608.05446) | arXiv 2026 | Harness state + harness-use policy | `paper-only` |
@@ -105,7 +107,7 @@ Reviewed **every three days** for:
 
 Every meaningful maintenance pass should update the README **and** structured data. No-change checks should not create commits.
 
-Last meaningful verification: **2026-09-04**.
+Last meaningful verification: **2026-09-07**.
 
 ## Contributing
 
