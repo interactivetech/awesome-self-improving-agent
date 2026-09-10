@@ -26,6 +26,8 @@ We track methods across:
 | **Meta-Harness** | [Meta-Harness: End-to-End Optimization of Model Harnesses](https://arxiv.org/abs/2603.28052) | arXiv 2026 | [stanford-iris-lab/meta-harness](https://github.com/stanford-iris-lab/meta-harness) | Harness / context plumbing | `official` |
 | **HarnessFix** | [From Failed Trajectories to Reliable LLM Agents: Diagnosing and Repairing Harness Flaws](https://arxiv.org/abs/2606.06324) | arXiv 2026 | [HarnessFix/HarnessFix](https://github.com/HarnessFix/HarnessFix) | Harness / runtime | `official` |
 | **Agentic Harness Engineering** | [Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses](https://arxiv.org/abs/2604.25850) | arXiv 2026 | [mqbazhaoyu/ahe](https://github.com/mqbazhaoyu/ahe) | Harness / runtime | `third-party` |
+| **Evo-Harness** | [Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents](https://arxiv.org/abs/2608.15071) | EMNLP 2026 | [A-EVO-Lab/a-evolve](https://github.com/A-EVO-Lab/a-evolve/tree/release/evo-harness) | Harness skills / reusable cross-task capabilities | `official` |
+| **SHE** | [SHE: Trajectory-driven Safety Harness Evolution for LLM Agents](https://arxiv.org/abs/2608.09885) | arXiv 2026 | [RainbowQTT/SHE](https://github.com/RainbowQTT/SHE) | Safety prompt + rule bank + safety memory + tool policy | `official` |
 | **ReCreate** | [ReCreate: Reasoning and Creating Domain Agents Driven by Experience](https://aclanthology.org/2026.acl-long.1432/) | ACL 2026 | [zz-haooo/ReCreate](https://github.com/zz-haooo/ReCreate) | Agent scaffold / domain architecture | `official` |
 | **SkillGraph** | [SkillGraph: Self-Evolving Multi-Agent Collaboration with Multimodal Graph Topology](https://arxiv.org/abs/2604.17503) | arXiv 2026 | [niez233/skillgraph](https://github.com/niez233/skillgraph) | Skills + multi-agent topology | `official` |
 | **Swarm Skills / JiuwenSwarm** | [Swarm Skills: A Portable, Self-Evolving Multi-Agent System Specification for Coordination Engineering](https://arxiv.org/abs/2605.10052) | arXiv 2026 | [openJiuwen-ai/jiuwenswarm](https://github.com/openJiuwen-ai/jiuwenswarm) | Shared swarm skills / coordination | `reference` |
@@ -42,6 +44,7 @@ We track methods across:
 
 | Method | Paper | Venue | What improves | Current status |
 |---|---|---|---|---|
+| **HarnessEvolve** | [HarnessEvolve: Learning from Reference Trajectories for Reliable Agent Self-Evolution](https://arxiv.org/abs/2609.00829) | arXiv 2026 | Prompts + skills + tools + execution logic | `paper-only` |
 | **HarnessDev** | [HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?](https://arxiv.org/abs/2609.01437) | arXiv 2026 | Harness creation + iterative harness evolution | `paper-only` |
 | **RHO** | [Evolving Agents in the Dark: Retrospective Harness Optimization via Self-Preference](https://arxiv.org/abs/2606.05922) | arXiv 2026 | Harness / runtime | `paper-only` |
 | **HARBOR** | [HARBOR: Automated Harness Optimization](https://arxiv.org/abs/2604.20938) | arXiv 2026 | Harness / runtime | `paper-only` |
@@ -61,7 +64,6 @@ These repositories stay in the project index while their canonical paper relatio
 | **SAGE** | Public code is tracked; canonical paper metadata is queued for verification. |
 | **Agent Lightning** | Public code is tracked; canonical paper metadata is queued for verification. |
 | **Adaptive Auto-Harness** | Public code is tracked; canonical paper metadata is queued for verification. |
-| **Evo-Harness** | Public code is tracked; canonical paper metadata is queued for verification. |
 | **AutoFlow** | Public code is tracked; canonical paper metadata is queued for verification. |
 | **AFlow** | Public code is tracked; canonical paper metadata is queued for verification. |
 | **A2Flow** | Public code is tracked; canonical paper metadata is queued for verification. |
@@ -107,7 +109,7 @@ Reviewed **every three days** for:
 
 Every meaningful maintenance pass should update the README **and** structured data. No-change checks should not create commits.
 
-Last meaningful verification: **2026-09-07**.
+Last meaningful verification: **2026-09-10**.
 
 ## Contributing
 
