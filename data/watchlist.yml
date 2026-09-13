@@ -1,5 +1,17 @@
 # Papers/methods to re-check for new or newly verified code releases.
 watchlist:
+  - name: "MetaSkill-Evolve"
+    paper: "https://arxiv.org/abs/2607.05297"
+    reason: "Recursive task-skill and meta-skill evolution method; no verified author-released public implementation located yet."
+    last_checked: "2026-09-13"
+  - name: "SkillCommit"
+    paper: "https://arxiv.org/abs/2608.15165"
+    reason: "Behaviorally validated hierarchical skill-evolution method; no verified author-released public implementation located yet."
+    last_checked: "2026-09-13"
+  - name: "HarnessCompass"
+    paper: "https://arxiv.org/abs/2608.01918"
+    reason: "Automatic harness evolution with constrained, proactive, component-wise optimization; no verified author-released public implementation located yet."
+    last_checked: "2026-09-13"
   - name: "Promptbreeder"
     paper: "https://arxiv.org/abs/2309.16797"
     reason: "No verified official author release in the current inventory."
