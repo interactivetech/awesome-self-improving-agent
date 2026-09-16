@@ -23,6 +23,8 @@ We track methods across:
 |---|---|---|---|---|---|
 | **TextGrad** | [TextGrad: Automatic “Differentiation” via Text](https://arxiv.org/abs/2406.07496) | arXiv 2024 | [zou-group/textgrad](https://github.com/zou-group/textgrad) | Prompts / textual variables | `official` |
 | **SkillOpt** | [SkillOpt: Executive Strategy for Self-Evolving Agent Skills](https://arxiv.org/abs/2605.23904) | arXiv 2026 | [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | Reusable natural-language skill artifact | `official` |
+| **OpenSkill** | [OpenSkill: Open-World Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.06741) | EMNLP 2026 | [OpenLAIR/OpenSkill](https://github.com/OpenLAIR/OpenSkill) | Open-world reusable skills + self-built verification signals | `official` |
+| **MetaSkill-Evolve** | [MetaSkill-Evolve: Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolution](https://arxiv.org/abs/2607.05297) | arXiv 2026 | [loversky02/metaskill-evolve](https://github.com/loversky02/metaskill-evolve) | Task skills + meta-skills governing the improvement pipeline | `third-party` |
 | **Self-Harness** | [Self-Harness: Harnesses That Improve Themselves](https://arxiv.org/abs/2606.09498) | arXiv 2026 | [qzzqzzb/Self-Harness](https://github.com/qzzqzzb/Self-Harness) | Harness / runtime | `official` |
 | **Meta-Harness** | [Meta-Harness: End-to-End Optimization of Model Harnesses](https://arxiv.org/abs/2603.28052) | arXiv 2026 | [stanford-iris-lab/meta-harness](https://github.com/stanford-iris-lab/meta-harness) | Harness / context plumbing | `official` |
 | **HarnessFix** | [From Failed Trajectories to Reliable LLM Agents: Diagnosing and Repairing Harness Flaws](https://arxiv.org/abs/2606.06324) | arXiv 2026 | [HarnessFix/HarnessFix](https://github.com/HarnessFix/HarnessFix) | Harness / runtime | `official` |
@@ -45,7 +47,6 @@ We track methods across:
 
 | Method | Paper | Venue | What improves | Current status |
 |---|---|---|---|---|
-| **MetaSkill-Evolve** | [MetaSkill-Evolve: Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolution](https://arxiv.org/abs/2607.05297) | arXiv 2026 | Task skills + meta-skills governing the improvement pipeline | `paper-only` |
 | **SkillCommit** | [SkillCommit: Evolving Agent Skills through Behaviorally Validated Scope Expansion](https://arxiv.org/abs/2608.15165) | arXiv 2026 | Hierarchical reusable skill library | `paper-only` |
 | **HarnessCompass** | [HarnessCompass: Guiding Automatic Harness Evolution toward Generalizable and Effective Agent Harnesses](https://arxiv.org/abs/2608.01918) | arXiv 2026 | Task-agnostic harness components | `paper-only` |
 | **HarnessEvolve** | [HarnessEvolve: Learning from Reference Trajectories for Reliable Agent Self-Evolution](https://arxiv.org/abs/2609.00829) | arXiv 2026 | Prompts + skills + tools + execution logic | `paper-only` |
@@ -55,8 +56,9 @@ We track methods across:
 | **EvoHarness-RL** | [EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents](https://arxiv.org/abs/2608.05446) | arXiv 2026 | Harness state + harness-use policy | `paper-only` |
 | **Living-Harness** | [Living-Harness Is an Interactive-Agent Evolver](https://arxiv.org/abs/2607.26598) | arXiv 2026 | Harness / interactive agent | `paper-only` |
 | **QueenBee Planner** | [QueenBee Planner: Skill-Evolving Communication Topologies for Token-Efficient LLM Multi-Agent Systems](https://arxiv.org/abs/2606.27492) | arXiv 2026 | Skills + communication topology | `preview` |
+| **AlgoEvo** | [AlgoEvo: Self-Evolving Agentic Search for Automated Algorithm Discovery](https://arxiv.org/abs/2609.15820) | arXiv 2026 | Reusable design skills + hierarchical experience | `paper-only` |
 
-> Agentic Harness Engineering has a tracked third-party implementation, but remains on the structured watchlist for an author-released implementation.
+> MetaSkill-Evolve now has a tracked third-party reproduction, but remains on the structured watchlist for an author-released implementation. Agentic Harness Engineering likewise has a tracked third-party implementation while we continue watching for an official release.
 
 ## Code-backed projects whose paper metadata is still being verified
 
@@ -113,7 +115,7 @@ Reviewed **every three days** for:
 
 Every meaningful maintenance pass should update the README **and** structured data. No-change checks should not create commits.
 
-Last meaningful verification: **2026-09-13**.
+Last meaningful verification: **2026-09-16**.
 
 ## Contributing
 
@@ -123,6 +125,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Research-backed submissions should inclu
 
 - [Awesome Graph Engineering](https://github.com/DEEP-JLU/Awesome-Graph-Engineering)
 - [A Survey of Self-Evolving Agents](https://arxiv.org/abs/2507.21046)
+- [Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104)
 - [Agent Harness Engineering: A Survey](https://openreview.net/forum?id=eONq7FdiHa)
 
 ## License
