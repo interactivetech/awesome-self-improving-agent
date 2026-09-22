@@ -39,6 +39,7 @@ We track methods across:
 | **AgentNet** | [AgentNet: Decentralized Evolutionary Coordination for LLM-based Multi-Agent Systems](https://arxiv.org/abs/2504.00587) | NeurIPS 2025 | [zoe-yyx/AgentNet](https://github.com/zoe-yyx/AgentNet) | Coordination topology + agent specialization | `official` |
 | **Harness-RL** | [Harness-RL: Black-Box Reinforcement Learning with Action-Args Decoupling for Central-Agent Multi-Agent Harnesses](https://arxiv.org/abs/2608.29641) | PCC 2026 | [jiangxinke/Harness-RL](https://github.com/jiangxinke/Harness-RL) | Central-agent policy / multi-agent harness coordination | `official` |
 | **SafeEvolve** | [SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment](https://arxiv.org/abs/2609.02786) | arXiv 2026 | [MaoPopovich/SafeEvolve](https://github.com/MaoPopovich/SafeEvolve) | Safety prompt + hierarchical skills + policy | `official` |
+| **Adaptive Auto-Harness** | [Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams](https://arxiv.org/abs/2606.01770) | arXiv 2026 | [A-EVO-Lab/AdaptiveHarness](https://github.com/A-EVO-Lab/AdaptiveHarness) | Harness construction + solve-time routing/adaptation | `official` |
 | **Self-Refine** | [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651) | NeurIPS 2023 | [madaan/self-refine](https://github.com/madaan/self-refine) | Current output | `official-borderline` |
 | **GPTSwarm** | [GPTSwarm: Language Agents as Optimizable Graphs](https://arxiv.org/abs/2402.16823) | ICML 2024 | [metauto-ai/GPTSwarm](https://github.com/metauto-ai/GPTSwarm) | Agent graph | `official` |
 | **ADAS** | [Automated Design of Agentic Systems](https://arxiv.org/abs/2408.08435) | ICLR 2025 | [ShengranHu/ADAS](https://github.com/ShengranHu/ADAS) | Agent architecture / program | `official` |
@@ -47,6 +48,7 @@ We track methods across:
 
 | Method | Paper | Venue | What improves | Current status |
 |---|---|---|---|---|
+| **Dream-RSI** | [Dream-RSI: Recursive Self-Improvement through Evolving Worlds](https://arxiv.org/abs/2609.14858) | arXiv 2026 | Meta-exploration policy / discovery strategy | `preview` |
 | **SkillCommit** | [SkillCommit: Evolving Agent Skills through Behaviorally Validated Scope Expansion](https://arxiv.org/abs/2608.15165) | arXiv 2026 | Hierarchical reusable skill library | `paper-only` |
 | **HarnessCompass** | [HarnessCompass: Guiding Automatic Harness Evolution toward Generalizable and Effective Agent Harnesses](https://arxiv.org/abs/2608.01918) | arXiv 2026 | Task-agnostic harness components | `paper-only` |
 | **HarnessEvolve** | [HarnessEvolve: Learning from Reference Trajectories for Reliable Agent Self-Evolution](https://arxiv.org/abs/2609.00829) | arXiv 2026 | Prompts + skills + tools + execution logic | `paper-only` |
@@ -58,7 +60,7 @@ We track methods across:
 | **QueenBee Planner** | [QueenBee Planner: Skill-Evolving Communication Topologies for Token-Efficient LLM Multi-Agent Systems](https://arxiv.org/abs/2606.27492) | arXiv 2026 | Skills + communication topology | `preview` |
 | **AlgoEvo** | [AlgoEvo: Self-Evolving Agentic Search for Automated Algorithm Discovery](https://arxiv.org/abs/2609.15820) | arXiv 2026 | Reusable design skills + hierarchical experience | `paper-only` |
 
-> MetaSkill-Evolve now has a tracked third-party reproduction, but remains on the structured watchlist for an author-released implementation. Agentic Harness Engineering likewise has a tracked third-party implementation while we continue watching for an official release.
+> Dream-RSI has an official author repository and project materials, but its repository currently states that the full codebase and reproduction scripts are still being prepared, so it remains `preview`. MetaSkill-Evolve has a tracked third-party reproduction, but remains on the structured watchlist for an author-released implementation. Agentic Harness Engineering likewise has a tracked third-party implementation while we continue watching for an official release.
 
 ## Code-backed projects whose paper metadata is still being verified
 
@@ -69,7 +71,6 @@ These repositories stay in the project index while their canonical paper relatio
 | **ACE** | Public code is tracked; canonical paper metadata is queued for verification. |
 | **SAGE** | Public code is tracked; canonical paper metadata is queued for verification. |
 | **Agent Lightning** | Public code is tracked; canonical paper metadata is queued for verification. |
-| **Adaptive Auto-Harness** | Public code is tracked; canonical paper metadata is queued for verification. |
 | **AutoFlow** | Public code is tracked; canonical paper metadata is queued for verification. |
 | **AFlow** | Public code is tracked; canonical paper metadata is queued for verification. |
 | **A2Flow** | Public code is tracked; canonical paper metadata is queued for verification. |
@@ -115,7 +116,7 @@ Reviewed **every three days** for:
 
 Every meaningful maintenance pass should update the README **and** structured data. No-change checks should not create commits.
 
-Last meaningful verification: **2026-09-16**.
+Last meaningful verification: **2026-09-22**.
 
 ## Contributing
 
