@@ -43,6 +43,7 @@ We track methods across:
 | **Self-Refine** | [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651) | NeurIPS 2023 | [madaan/self-refine](https://github.com/madaan/self-refine) | Current output | `official-borderline` |
 | **GPTSwarm** | [GPTSwarm: Language Agents as Optimizable Graphs](https://arxiv.org/abs/2402.16823) | ICML 2024 | [metauto-ai/GPTSwarm](https://github.com/metauto-ai/GPTSwarm) | Agent graph | `official` |
 | **ADAS** | [Automated Design of Agentic Systems](https://arxiv.org/abs/2408.08435) | ICLR 2025 | [ShengranHu/ADAS](https://github.com/ShengranHu/ADAS) | Agent architecture / program | `official` |
+| **ToolMaster** | [Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction](https://arxiv.org/abs/2601.12762) | arXiv 2026 | [NEUIR/ToolMaster](https://github.com/NEUIR/ToolMaster) | Model policy for tool trialing, execution, and self-correction | `official` |
 
 ## Papers being watched for code
 
